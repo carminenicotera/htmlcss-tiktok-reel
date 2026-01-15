@@ -18,7 +18,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -34,6 +35,23 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	padding: 4% 5%;
+}
+
+.icon_header {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	font-size: 1.5rem;
+}
+
+.icon_explore {
+	display: flex;
+	justify-content: space-around;
+	gap: 1.5rem;
 }
 
 /* Footer */
