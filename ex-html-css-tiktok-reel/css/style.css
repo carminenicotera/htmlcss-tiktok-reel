@@ -35,7 +35,7 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-	padding: 4% 5%;
+	padding: 4%;
 }
 
 .icon_header {
@@ -76,6 +76,11 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+	align-items: center;
 }
 
 /* ---------------------
